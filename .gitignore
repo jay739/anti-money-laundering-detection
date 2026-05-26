@@ -1,0 +1,24 @@
+# Ignored source datasets (especially the 32M+ rows file)
+*.csv
+*.parquet
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python caching and byte-code
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.env.local
+.venv/
+venv/
+ENV/
+env/
+
+# OS-specific temporary files
+.DS_Store
+Thumbs.db
