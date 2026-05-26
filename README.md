@@ -87,11 +87,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Add Dataset
-Place the raw `HI-Medium_Trans.csv` file under a local `data/` folder:
+### 2. Download and Add Dataset
+The dataset used in this project is the **IBM Transactions for Anti-Money Laundering (AML)** dataset hosted on Kaggle. 
+
+1. Download the dataset from Kaggle: [IBM Transactions for Anti-Money Laundering (AML) on Kaggle](https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml)
+2. Extract the archive and place the `HI-Medium_Trans.csv` file under a local `data/` folder in the project root:
 ```bash
 mkdir -p data
-# Place your HI-Medium_Trans.csv dataset into data/
+# Move the downloaded HI-Medium_Trans.csv to the data/ directory
 ```
 
 ---
