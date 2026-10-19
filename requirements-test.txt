@@ -1,0 +1,3 @@
+pytest>=7
+pyspark>=3.5.1
+numpy>=1.24.0
