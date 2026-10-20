@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect x="0" y="0" width="512" height="512" rx="123" ry="123" fill="#0B0D10"/>
+  <g id="icon">
+    <!-- magnifier over a transaction network -->
+    <path d="M 186 196 L 262 182 L 222 262 Z" fill="none" stroke="#C084FC" stroke-width="14" stroke-linejoin="round"/>
+    <circle cx="186" cy="196" r="22" fill="#C084FC"/>
+    <circle cx="222" cy="262" r="22" fill="#C084FC"/>
+    <!-- the flagged account -->
+    <circle cx="262" cy="182" r="24" fill="#F2F0EA"/>
+    <circle cx="222" cy="222" r="114" fill="none" stroke="#C084FC" stroke-width="40"/>
+    <line x1="306" y1="306" x2="400" y2="400" stroke="#C084FC" stroke-width="54" stroke-linecap="round"/>
+  </g>
+</svg>
